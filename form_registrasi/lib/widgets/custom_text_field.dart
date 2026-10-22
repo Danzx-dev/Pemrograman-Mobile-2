@@ -18,6 +18,7 @@ class CustomTextField extends StatelessWidget {
     this.keyboardType = TextInputType.text,
     this.validator,
   });
+  
   @override
   Widget build(BuildContext context) {
     return Padding(
